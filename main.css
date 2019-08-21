@@ -1,0 +1,34 @@
+/* CSS Rulesets consists of 3 parts:
+1. Selector to select what elements you're styling
+2. Declaration block where your CSS go
+3. Declaration of CSS rules inside the declaration bkack */
+
+
+Table {
+    /* set the width of table elements to 100% of the parent element */
+    width: 100%;
+    background-color: white
+}
+h1 {
+    /* Alighning the text for the h1 to center */
+    text-align: center;
+}
+th {
+    font-size: 20pt;
+    /* Underline the table headers */
+    text-decoration: underline
+}
+td {
+    /* Center the text for table data elements*/
+    text-align: center;
+    font-size: 16 pt;
+}
+/* Applies to table, headers and data */
+table, th, td {
+    border-width: 1px;
+    border-color: rosybrown;
+    border-style: solid;
+    border-radius: 20px;
+    
+
+}

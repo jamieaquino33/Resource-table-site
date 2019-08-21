@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>Resource Table Site</title>
+    <meta name="author" content="Jamie Aquino">
+    <meta name="description" content="Site we use to list resources for web development">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- rel=relation to refernce CSS -->
+     <link rel="stylesheet" href="main.css">
+
+    <style>
+        body {
+            background-color:darkgray;
+            font-size: 20pt;
+        }
+        h1 {
+            font-size: 33pt;
+            text-align: center
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The style attribute below is an example on an inline style -->
+    <!-- Inline style are used when we are tsyling the element within the tag for the element -->
+    <h1 style="color:rosybrown">My Web Development resources</h1>
+
+        <!-- This is an achor tag, which is used to link stuff. -->
+        <!-- href attribute is the URL that the anchor tag navigates to-->
+        <!-- Traget attribute determines how the link is opened in the browser. Ex. target=_blank opens link in new tab-->
+
+        <!-- This is the container for an HTML table-->
+        <table>
+            <!-- Tables in HTML contain multiple rows and columns. Each row will have data that will store in each column.-->
+            <!-- Tables can also have headers for the columns that we can display -->
+            <!-- Each row for our table is a tr(tabke row) element -->
+            <tr>
+                <!-- Table header-->
+                <th>Resource</th>
+                <th>Description</th>
+                <th>Link</th>
+            </tr>
+            <tr>
+                <!-- Table data -->
+                <td>W3Schools</td>
+                <td>Web Development Tutorials and Documentation</td> 
+                <td>
+                    <a href="https://www.w3schools.com" target="_blank">Link</a>
+                </td>   
+
+            </tr>
+            <tr>
+                <td>Mozilla Developer Network</td>
+                <td>Web Development and Resources</td>
+                <td>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank">Link</a>
+                </td>
+            </tr>
+            <tr></tr>
+            <td>Stack Overflow</td>
+            <td>Where Developers Learn, Share, and Build Careers</td>
+            <td>
+                <a href="https://stackoverflow.com/" target="blank">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Google Developers</td>
+                <td>Tools for Web Developers</td>
+                <td>
+                    <a href="https://developers.google.com/web/tools/chrome-devtools/?utm_source=dcc&utm_medium=redirect&utm_campaign=2018Q2" target="_blank">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td>VS Code</td>
+                <td>Keyboard Shortcuts For VS Code</td>
+                <td>
+                    <a href="https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf" target="_blank">Link</a>
+                </td>
+
+
+</body>
+
+</html>
